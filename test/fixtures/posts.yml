@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  NewReleases: MyString
+  MostPopular: MyString
+  commingsoon: MyString
+  games: MyString
+
+two:
+  NewReleases: MyString
+  MostPopular: MyString
+  commingsoon: MyString
+  games: MyString

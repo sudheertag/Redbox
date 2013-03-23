@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Newreleases:</b>
+  <%= @post.NewReleases %>
+</p>
+
+<p>
+  <b>Mostpopular:</b>
+  <%= @post.MostPopular %>
+</p>
+
+<p>
+  <b>Commingsoon:</b>
+  <%= @post.commingsoon %>
+</p>
+
+<p>
+  <b>Games:</b>
+  <%= @post.games %>
+</p>
+
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
